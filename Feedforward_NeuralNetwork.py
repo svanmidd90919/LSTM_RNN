@@ -3,8 +3,6 @@ Created on 2019 M10 31
 
 @author: Sheldon Van Middelkoop
 '''
-from matplotlib.pyplot import sca
-
 """
 -----------------------------------------------------------------------------------------------------------------------
 Importing Libraries
@@ -13,8 +11,6 @@ Importing Libraries
 import numpy
 from pandas import read_csv
 import matplotlib.pyplot as plt
-from sklearn.model_selection import train_test_split
-import date_to_time
 import math
 from keras.models import Sequential
 from keras.layers import Dense
